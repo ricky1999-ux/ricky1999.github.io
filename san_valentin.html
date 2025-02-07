@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitación de San Valentín</title>
+    <style>
+        body {
+            background-color: pink;
+            font-family: 'Comic Sans MS', sans-serif;
+            text-align: center;
+            color: #ff3366;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            margin: 50px auto;
+            padding: 20px;
+            max-width: 600px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 15px;
+        }
+        button {
+            background-color: #ff3366;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            border-radius: 10px;
+            cursor: pointer;
+            margin: 10px;
+        }
+        button:hover {
+            background-color: #ff6699;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>¿Quieres ser mi San Valentín? 💕</h1>
+        <img src="https://media.giphy.com/media/l3q2K5jinAlChoCLS/giphy.gif" alt="Gif romántico">
+        <p><strong>Aceptas:</strong></p>
+        <button onclick="respond()">¡Sí!</button>
+        <button onclick="respond()">¡Por supuesto que sí! 😍</button>
+    </div>
+    <script>
+        function respond() {
+            alert("Sabía que dirías que sí 💖 ¡Te amo, Karla!");
+        }
+    </script>
+</body>
+</html>
